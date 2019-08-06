@@ -91,6 +91,26 @@ function getStyleDictionaryConfig(platform) {
             format: 'ios/macros'
           }
         ]
+      },
+      ios: {
+        transforms: [
+          'attribute/cti',
+          'name/cti/constant',
+          'color/UIColorSwift',
+          'content/swift/literal',
+          'asset/swift/literal',
+          'size/swift/remToCGFloat',
+          'font/swift/literal'
+        ],
+        prefix: 'token',
+        buildPath: 'dist/ios/',
+        files: [
+          {
+            destination: 'tokens.swift',
+            format: 'ios-swift/class.swift',
+            className: 'DesignTokens'
+          }
+        ]
       }
     }
   };
