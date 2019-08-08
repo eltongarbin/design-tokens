@@ -1,21 +1,14 @@
 {
   "color": {
-    "base": {
-      "black"     : { "value": "#000000" },
-      "gray": {
-        "light"   : { "value": "#CCCCCC" },
-        "medium"  : { "value": "#999999" },
-        "dark"    : { "value": "#111111" }
-      },
-      "red"       : { "value": "#FF0000" },
-      "green"     : { "value": "#00FF00" }
+    "primary": {
+      "default": { "value": "#2c3645" },
+      "light": { "value": "#566070" },
+      "dark": { "value": "#03101e" }
     },
-    "primary"     : { "value": "blue" },
-    "secondary"   : { "value": "red" },
-    "action": {
-      "primary"   : { "value": "{color.primary.value}" },
-      "secondary" : { "value": "{color.secondary.value}" },
-      "tertiary"  : { "value": "{color.base.gray.medium.value}" }
+    "secondary": {
+      "default": { "value": "#00d8f6" },
+      "light": { "value": "#6bffff" },
+      "dark": { "value": "#00a6c3" }
     }
   }
 }

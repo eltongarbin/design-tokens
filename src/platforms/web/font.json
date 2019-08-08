@@ -1,7 +1,9 @@
 {
   "font": {
     "platform": {
-      "system": { "value": "Tahoma, Arial, 'Helvetica Neue', sans" }
+      "system": {
+        "value": "myriad-pro, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif"
+      }
     }
   }
 }

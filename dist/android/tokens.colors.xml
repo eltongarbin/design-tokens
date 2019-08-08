@@ -2,23 +2,16 @@
 
 <!--
   Do not edit directly
-  Generated on Sat, 03 Aug 2019 23:01:32 GMT
+  Generated on Thu, 08 Aug 2019 01:18:33 GMT
 -->
 <resources>
-  <color name="TOKEN_COLOR_BASE_BLACK">#ff000000</color>
-  <color name="TOKEN_COLOR_BASE_GRAY_LIGHT">#ffcccccc</color>
-  <color name="TOKEN_COLOR_BASE_GRAY_MEDIUM">#ff999999</color>
-  <color name="TOKEN_COLOR_BASE_GRAY_DARK">#ff111111</color>
-  <color name="TOKEN_COLOR_BASE_RED">#ffff0000</color>
-  <color name="TOKEN_COLOR_BASE_GREEN">#ff00ff00</color>
-  <color name="TOKEN_COLOR_PRIMARY">#ff0000ff</color>
-  <color name="TOKEN_COLOR_SECONDARY">#ffff0000</color>
-  <color name="TOKEN_COLOR_ACTION_PRIMARY">#ff0000ff</color>
-  <color name="TOKEN_COLOR_ACTION_SECONDARY">#ffff0000</color>
-  <color name="TOKEN_COLOR_ACTION_TERTIARY">#ff999999</color>
-  <color name="TOKEN_COLOR_FONT_BASE">#ff000000</color>
-  <color name="TOKEN_COLOR_FONT_PRIMARY">#ff0000ff</color>
-  <color name="TOKEN_COLOR_FONT_SECONDARY">#ffff0000</color>
-  <color name="TOKEN_COLOR_FONT_TERTIARY">#ffcccccc</color>
+  <color name="TOKEN_COLOR_PRIMARY_DEFAULT">#ff2c3645</color>
+  <color name="TOKEN_COLOR_PRIMARY_LIGHT">#ff566070</color>
+  <color name="TOKEN_COLOR_PRIMARY_DARK">#ff03101e</color>
+  <color name="TOKEN_COLOR_SECONDARY_DEFAULT">#ff00d8f6</color>
+  <color name="TOKEN_COLOR_SECONDARY_LIGHT">#ff6bffff</color>
+  <color name="TOKEN_COLOR_SECONDARY_DARK">#ff00a6c3</color>
+  <color name="TOKEN_COLOR_FONT_PRIMARY">#ffffffff</color>
+  <color name="TOKEN_COLOR_FONT_SECONDARY">#ff000000</color>
   
 </resources>
