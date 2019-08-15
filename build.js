@@ -1,7 +1,5 @@
 const StyleDictionaryPackage = require('style-dictionary');
 
-// HAVE THE STYLE DICTIONARY CONFIG DYNAMICALLY GENERATED
-
 function getStyleDictionaryConfig(platform) {
   return {
     source: ['src/globals/**/*.json', `src/platforms/${platform}/*.json`],
@@ -117,9 +115,6 @@ function getStyleDictionaryConfig(platform) {
 }
 
 console.log('Build started...');
-
-// PROCESS THE DESIGN TOKENS FOR THE DIFFEREN PLATFORMS
-
 ['web', 'ios', 'android'].map(function(platform) {
   console.log('\n==============================================');
   console.log(`\nProcessing: [${platform}]`);
