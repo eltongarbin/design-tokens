@@ -2,16 +2,20 @@
 
 <!--
   Do not edit directly
-  Generated on Thu, 08 Aug 2019 01:18:33 GMT
+  Generated on Thu, 22 Aug 2019 02:23:15 GMT
 -->
 <resources>
-  <color name="TOKEN_COLOR_PRIMARY_DEFAULT">#ff2c3645</color>
-  <color name="TOKEN_COLOR_PRIMARY_LIGHT">#ff566070</color>
-  <color name="TOKEN_COLOR_PRIMARY_DARK">#ff03101e</color>
-  <color name="TOKEN_COLOR_SECONDARY_DEFAULT">#ff00d8f6</color>
-  <color name="TOKEN_COLOR_SECONDARY_LIGHT">#ff6bffff</color>
-  <color name="TOKEN_COLOR_SECONDARY_DARK">#ff00a6c3</color>
-  <color name="TOKEN_COLOR_FONT_PRIMARY">#ffffffff</color>
-  <color name="TOKEN_COLOR_FONT_SECONDARY">#ff000000</color>
+  <color name="TOKEN_COLOR_BACKGROUND_BASE">#ff2c3645</color>
+  <color name="TOKEN_COLOR_BACKGROUND_BUTTON_PRIMARY_BASE">#ff33c4d6</color>
+  <color name="TOKEN_COLOR_BACKGROUND_BUTTON_PRIMARY_ACTIVE">#ff3eb0be</color>
+  <color name="TOKEN_COLOR_BACKGROUND_BUTTON_SECONDARY_BASE">#ffffffff</color>
+  <color name="TOKEN_COLOR_BASE_WHITE">#ffffffff</color>
+  <color name="TOKEN_COLOR_BASE_BLUE_DARK">#ff2c3645</color>
+  <color name="TOKEN_COLOR_BASE_CYAN_NORMAL">#ff33c4d6</color><!-- look how this comment will appear in the generated files -->
+  <color name="TOKEN_COLOR_BASE_CYAN_MEDIUM">#ff3eb0be</color>
+  <color name="TOKEN_COLOR_BASE_GRAY_DARK">#ff343e4f</color>
+  <color name="TOKEN_COLOR_FONT_BUTTON_PRIMARY_BASE">#ffffffff</color>
+  <color name="TOKEN_COLOR_FONT_BUTTON_SECONDARY_BASE">#ff343e4f</color>
+  <color name="TOKEN_COLOR_FONT_BUTTON_SECONDARY_ACTIVE">#ff33c4d6</color>
   
 </resources>

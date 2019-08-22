@@ -1,15 +1,19 @@
 /**
  * Do not edit directly
- * Generated on Thu, 08 Aug 2019 01:18:33 GMT
+ * Generated on Thu, 22 Aug 2019 02:23:15 GMT
  */
 
-export const TOKEN_COLOR_PRIMARY_DEFAULT = "#2c3645";
-export const TOKEN_COLOR_PRIMARY_LIGHT = "#566070";
-export const TOKEN_COLOR_PRIMARY_DARK = "#03101e";
-export const TOKEN_COLOR_SECONDARY_DEFAULT = "#00d8f6";
-export const TOKEN_COLOR_SECONDARY_LIGHT = "#6bffff";
-export const TOKEN_COLOR_SECONDARY_DARK = "#00a6c3";
-export const TOKEN_COLOR_FONT_PRIMARY = "#ffffff";
-export const TOKEN_COLOR_FONT_SECONDARY = "#000000";
-export const TOKEN_FONT_FAMILY_BASE = "Roboto";
-export const TOKEN_FONT_PLATFORM_SYSTEM = "Roboto";
+export const TOKEN_COLOR_BACKGROUND_BASE = '#2c3645';
+export const TOKEN_COLOR_BACKGROUND_BUTTON_PRIMARY_BASE = '#33c4d6';
+export const TOKEN_COLOR_BACKGROUND_BUTTON_PRIMARY_ACTIVE = '#3eb0be';
+export const TOKEN_COLOR_BACKGROUND_BUTTON_SECONDARY_BASE = '#ffffff';
+export const TOKEN_COLOR_BASE_WHITE = '#ffffff';
+export const TOKEN_COLOR_BASE_BLUE_DARK = '#2c3645';
+export const TOKEN_COLOR_BASE_CYAN_NORMAL = '#33c4d6'; // look how this comment will appear in the generated files
+export const TOKEN_COLOR_BASE_CYAN_MEDIUM = '#3eb0be';
+export const TOKEN_COLOR_BASE_GRAY_DARK = '#343e4f';
+export const TOKEN_COLOR_FONT_BUTTON_PRIMARY_BASE = '#ffffff';
+export const TOKEN_COLOR_FONT_BUTTON_SECONDARY_BASE = '#343e4f';
+export const TOKEN_COLOR_FONT_BUTTON_SECONDARY_ACTIVE = '#33c4d6';
+export const TOKEN_FONT_FAMILY_BASE = 'Roboto';
+export const TOKEN_FONT_PLATFORM_SYSTEM = 'Roboto';
