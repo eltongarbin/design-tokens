@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!--
-  Do not edit directly
-  Generated on Thu, 22 Aug 2019 02:23:15 GMT
--->
+
 <resources>
   <color name="TOKEN_COLOR_BACKGROUND_BASE">#ff2c3645</color>
   <color name="TOKEN_COLOR_BACKGROUND_BUTTON_PRIMARY_BASE">#ff33c4d6</color>

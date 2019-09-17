@@ -16,7 +16,8 @@ function getStyleDictionaryConfig(platform) {
         files: [
           {
             destination: 'tokens.js',
-            format: 'javascript/es6'
+            format: 'javascript/es6',
+            options: { showFileHeader: false }
           }
         ]
       },
@@ -34,7 +35,8 @@ function getStyleDictionaryConfig(platform) {
         files: [
           {
             destination: 'tokens.scss',
-            format: 'scss/variables'
+            format: 'scss/variables',
+            options: { showFileHeader: false }
           }
         ]
       },
@@ -51,24 +53,29 @@ function getStyleDictionaryConfig(platform) {
         files: [
           {
             destination: 'tokens.colors.xml',
-            format: 'android/colors'
-          },
-          {
-            destination: 'tokens.dimens.xml',
-            format: 'android/dimens'
-          },
-          {
-            destination: 'tokens.font_dimens.xml',
-            format: 'android/fontDimens'
-          },
-          {
-            destination: 'tokens.integers.xml',
-            format: 'android/integers'
-          },
-          {
-            destination: 'tokens.strings.xml',
-            format: 'android/strings'
+            format: 'android/colors',
+            options: { showFileHeader: false }
           }
+          // {
+          //   destination: 'tokens.dimens.xml',
+          //   format: 'android/dimens',
+          //   options: { showFileHeader: false }
+          // },
+          // {
+          //   destination: 'tokens.font_dimens.xml',
+          //   format: 'android/fontDimens',
+          //   options: { showFileHeader: false }
+          // },
+          // {
+          //   destination: 'tokens.integers.xml',
+          //   format: 'android/integers',
+          //   options: { showFileHeader: false }
+          // },
+          // {
+          //   destination: 'tokens.strings.xml',
+          //   format: 'android/strings',
+          //   options: { showFileHeader: false }
+          // }
         ]
       },
       ios: {
@@ -86,7 +93,8 @@ function getStyleDictionaryConfig(platform) {
         files: [
           {
             destination: 'tokens.h',
-            format: 'ios/macros'
+            format: 'ios/macros',
+            options: { showFileHeader: false }
           }
         ]
       },
@@ -106,7 +114,8 @@ function getStyleDictionaryConfig(platform) {
           {
             destination: 'tokens.swift',
             format: 'ios-swift/class.swift',
-            className: 'DesignTokens'
+            className: 'DesignTokens',
+            options: { showFileHeader: false }
           }
         ]
       }

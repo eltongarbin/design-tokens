@@ -2,8 +2,7 @@
 //
 // tokens.swift
 //
-// Do not edit directly
-// Generated on Thu, 22 Aug 2019 02:23:15 GMT
+
 //
 
 
